@@ -756,6 +756,12 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
+.clients-item-lang img {
+  width: 100%;
+  filter: grayscale(0);
+  transition: var(--transition-1);
+}
+
 
 
 
@@ -1878,5 +1884,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+}
 
+.v-center {
+  height: -webkit-fill-available;
 }
