@@ -798,7 +798,6 @@ main {
 .timeline-item-title {
   font-size: var(--fs-6);
   line-height: 1.3;
-  margin-bottom: 7px;
 }
 
 .timeline-list span {
@@ -1888,4 +1887,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .v-center {
   height: -webkit-fill-available;
+}
+
+.mb-7 {
+  margin-bottom: 7px;
 }
