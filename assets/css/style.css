@@ -1892,3 +1892,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 .mb-7 {
   margin-bottom: 7px;
 }
+
+@media (max-width: 768px) {
+  .languages-container {
+    gap: 0 !important;
+  }
+}
